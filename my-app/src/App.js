@@ -1,39 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import Header from './Header'
+import Telo from './Telo'
+import Footer from './Footer'
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Tehno />
+      <Telo />
+      <Footer />
     </div>
   );
 }
 
-const Tehno = () => {
-  return (
-    <div className="App">
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>1</li>
-        <li>2</li>
-      </ul>
-    </div>
-  )
-}
 
-const Header = () => {
-  return (
-    <div className="Header">
-      <ul>
-        <li>12</li>
-        <li>23</li>
-        <li>14</li>
-        <li>25</li>
-      </ul>
-    </div>
-  );
-}
 
 export default App;
